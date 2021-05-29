@@ -1,0 +1,791 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.body {
+    width: 1055px;
+    margin: auto;
+}
+
+/*INDUMENTARIA*/
+
+.indumentaria{
+    text-align: center;
+}
+.indumentaria__titulo{
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+}
+.indumentaria__subtitulo {
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    font-size: 60px;
+    padding-top: 20px;
+}
+.indumentaria__texto{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    font-style: italic;
+}
+            
+/*COMO MEDIR MI TALLE*/
+
+.grilla {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 100px 400px;
+}
+
+.grilla__talle {color: black;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    justify-items: center;
+}
+.tableYgrilla{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.tabla {
+    margin-top: 100px;
+    margin-right: 70px;
+    width: 67%;
+}
+.tabla__h1h2{
+    font-family: 'Raleway', sans-serif;
+}
+.tabla__talle{
+    width: 300px;
+}
+.tabla__medidas{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Fondo*/
+
+body { 
+    background-color: white;
+    
+}
+
+/* ENCABEZADO*/
+
+
+.encabezado { 
+            background-color: #2a2727;
+            width: 100%;
+            height: 120px;
+            
+        }
+.encabezado__cajatodo {
+    width: 100%;
+    height: 120px;
+    margin: 0px;
+    position:fixed;
+    z-index: 100;
+    top:0;
+}
+.encabezado__cajalogo{
+    width: 30%;
+    height: 120px;
+    float: left;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.encabezado__nav {
+    width: 70%;
+    height: 120px;
+    background-image: url(imagenes/fondo-min.jpeg);
+    float: left;
+}
+.encabezado__titulo{
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+/* ENCABEZADO */
+
+/* SUBMENU */
+
+.encabezado__ul {
+    list-style: none;
+    padding-top: 50px;
+}
+.encabezado__link {
+    list-style: none;
+}
+.encabezado__link1 {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+    text-transform: uppercase;
+}
+.encabezado__ul2{
+    position: absolute;
+    text-decoration: none;
+    display: none;
+    color: black;
+    content: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: cursive;
+    list-style: none;
+}
+
+.encabezado__ul .encabezado__link .encabezado__link1  {
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 12px;
+    display: inline-block;
+}
+.encabezado__link3 {
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 15px;
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+.encabezado__ul .encabezado__link .encabezado__link1:hover {
+    background-color: #E1BDAC;
+}
+.encabezado__ul .encabezado__link {
+    float:left;
+}
+
+.encabezado__ul .encabezado__link .encabezado__ul2 {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.encabezado__ul .encabezado__link:hover .encabezado__ul2 {
+    display: block;
+    z-index: 1;
+}
+.encabezado__link3 {
+    display: block;
+}
+.encabezado__link3:hover {
+    background-color: #E1BDAC;
+}
+.encabezado__form{
+    margin-left: 30px;
+    
+}
+.encabezado__buscar{
+    border-radius: 10px;
+    padding: 8px;
+    background-color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+.encabezado__buscar:hover{
+    background-color: #E1BDAC;
+}
+.encabezado__input{
+    width: 300px;
+    padding:4px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Pie de página*/
+
+.futer {
+    
+background: linear-gradient( to top, #5b5959,#040404);
+
+color: white;
+
+display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    
+}
+
+.futer__ul {
+    list-style: none;
+}
+
+.futer__li {
+    padding: 1px 10px 1px 10px;  
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.futer__li2 { text-decoration: none;
+     color: white;        
+}
+
+.futer__li2:hover {
+    text-decoration: none; 
+    color: red;
+}
+
+
+.futer__preguntas_frecuentes {
+    padding: 10px;
+    font-family: 'Antonio', sans-serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    margin: 13px;
+}
+.futer__subtitulo1 {
+    padding: 10px;
+    font-family: 'Antonio', sans-serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    margin-top: 13px;
+}
+.futer__news {
+    padding: 10px;
+    font-family: 'Antonio', sans-serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    margin: 13px;
+}
+.futer__subtitulo2 {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.futer__horarios  {
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+.futer__numero{
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+.futer__calle {
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+.futer__suscribite {
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+
+.futer__form {
+    padding-left: 10px;
+    
+}
+
+.futer__enviar {
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: white;
+    background-color:#4d4949;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.futer__enviar:hover {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    text-decoration: solid;
+}
+.futer__tienda{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+/*Pie de página*/
+
+
+/*Animación*/
+
+
+
+@keyframes animacion { 
+            0%{ width: 100px;}
+            10%{width:300px}
+            25%{width: 500px;}
+            40%{width: 700px;}
+            50%{width: 1000px;
+            background-color:#6e6a6a;}
+            75%{width: 1100px;}
+            80%{width: 1200px;}
+            90%{width: 1300px;}
+            100%{width: 1383px;
+            background-color: black;}
+                    
+            }
+
+.animacion {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    margin-top: 10px;
+
+}              
+.animacion__rebajas{
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+.animacion__rebajas2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+/*Animación*/
+
+
+
+
+
+/* las 4 imagenes */
+
+.seguinos{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 10px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 30px 20px;
+}
+
+.instagram__sweater {
+    margin-right: 60px;
+}
+
+.instagram__chaleco {
+    margin-right: 60px;
+    margin-left: 40px;
+}
+
+.instagram__prz {
+    margin-right: 60px;
+    margin-left: 40px;
+}
+
+.instagram__pantalon{
+    margin-right: 60px;
+    margin-left: 40px;
+}
+/* las 4 imagenes */
+
+/*BOTON DE REDES SOCIALES */ 
+
+.botonSocial {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-whatsapp {
+    background-color: green;
+}
+
+.icon-instagram {
+	background: #3f729b;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+    color: white;
+}
+
+/* BOTON DE REDES SOCIALES */ 
+
+/*SECCIÓN REMERAS*/
+
+.remera_texto {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.portada_remera{
+    width: 100%;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+}
+.grid__iyt > * {
+        box-shadow: 10px 8px 7px black;      
+}
+
+.grid__iyt {
+    display: grid;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+    /* 3 columnas */
+    grid-template-columns: minmax(auto, 400px) minmax(auto, 400px);
+    grid-column-gap: 20px;
+    background-color: seagreen;
+    border-color: blue;
+    /* varias filas */
+    grid-template-rows: repeat(5, 400px);
+    grid-row-gap: 30px;
+    background-color: white;
+    border-color: red;
+}
+
+/*REMERAS*/
+.grid__texto1 {
+    margin-left: 20px;
+}
+
+.grid__remera1 {
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-size: 30px;
+}
+.grid__precio1 {
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+}
+.grid__talle1 {
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.grid__conocetutalle{
+    margin-left: 120px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+}
+.grid__conocetutalle:hover{
+    color: black;
+}
+.grid__color1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.grid__cuidados1 {
+    margin-left: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 18px;
+}
+.grid__puntosentrega{
+    text-align:right;
+    margin-right: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+.grid__entrega{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.grid__entrega:hover{
+    color: black;
+}
+.grid__mediosdepago{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+    font-style: italic;
+}
+.grid__mediosdepagoA{
+    text-decoration: none;
+    color: black;
+}
+.grid__mediosdepagoA:hover{
+    color: black;
+}
+.grid__divButton{
+    display: flex;
+    justify-content: center;
+}
+.grid__button{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*SECCIÓN BUZOS Y SWEATERS*/
+.buzo_sweater{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    margin-top: 20px;
+
+}
+
+/*SECCION CONTACTO, FORMULARIO*/
+
+.contacto{
+    display: flex;
+    justify-content: right;
+}
+
+.form{
+    width: 800px;
+    background:white;  
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.form__formulario{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.form__control{
+    width: 100%;
+    background: white ;  
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.form__boton{
+    width: 100%;
+    background: #1f53c5;
+    border-radius: 4px;
+    border: none;
+    padding: 12px;
+    color:white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+.contacto__checkbox {
+    width: 35%;
+    padding: 10px;
+    display:inline;
+    justify-content: space-between;
+}
+.contacto__label{
+    color: black;
+    padding: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: white;
+}
+.contacto__contform {
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 30%;
+}
+.contacto__horarios{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 45px;
+}
+.contacto__area {
+margin-top: 10px;
+}
+.contacto__h2{
+    text-align:left;
+    font-family: 'Raleway', sans-serif;
+}
+.contacto__emailPrincipal{
+    font-family: 'Raleway', sans-serif;
+}
+.contacto__wsp{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+}
+.contacto__emailPersonal{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+.contacto__2mails{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*SECCIÓN OFERTA*/
+
+.grillaofertas{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.grillaofertas__general > * {
+         box-shadow: 10px 8px 7px black;      
+ }
+ 
+ 
+ 
+ .grillaofertas__general {
+     display: grid;
+     justify-content: center;
+     width: 500px;
+     height: 500px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+ 
+     /* 3 columnas */
+     grid-template-columns: minmax(auto, 300px) ;
+     grid-column-gap: 20px;
+     background-color: seagreen;
+     border-color: blue;
+     /* varias filas */
+     grid-template-rows: 400px 100px 400px 100px 400px 100px;
+     grid-row-gap: 30px;
+     background-color: white;
+     border-color: red;
+ }
+ .grillaofertas__texto{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 15px;
+ }
+ .grillaofertas__comprar{
+     text-decoration: none;
+     text-transform:uppercase;
+     float: right;
+     margin-right: 15px;
+     margin-top: 5px;
+     border-radius: 10px;
+     color: white;
+     background-color: black;
+
+     
+ }
+ .ofertas{
+     font-family: 'Bangers', cursive;
+     text-align: center;
+ }
+ .mejores_ofertas{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+ }
+
+/*SECCIÓN AYUDA*/
+
+.ayuda{
+    margin-left: 10px;
+}
+.ayuda__div2{
+    margin-left: 10px;
+}
+.ayuda__div3{
+    margin-left: 10px;
+}
+.ayuda__h1{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+}
+.ayuda__h2{
+    font-family: 'Raleway', sans-serif;
+}
+.ayuda__h3{
+    font-family: 'Raleway', sans-serif;
+}
+.ayuda__p{
+    font-family: 'Raleway', sans-serif;
+}
+.ayuda__a{
+    color: black;
+}
+.ayuda__a:hover{
+    color: white;
+    border-radius: 3px;
+    background-color: #E1BDAC;
+}
